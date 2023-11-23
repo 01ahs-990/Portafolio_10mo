@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html lang="en"> 
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="styles.css">
+            <link rel="manifest" href="manifest.json">
+            <title>PORTAFOLIO DE EVIDENCIAS 10MO</title>
+        </head>
+        <body>
+            <div id="splash-screen">
+                <div id="loading-icon"></div>
+                <p>Cargando...</p>
+            </div> 
+
+            <div id="home-screen" class="hidden">
+                <br><br><br><br><br><br>
+            <div class="contenedor-img">
+                <img src="Roman1.png" alt="">
+            </div>
+            <br><br>
+                <h1>TSU. ROMAN HERNANDEZ SUAREZ</h1>
+                <h1>PORTAFOLIO DE EVIDENSIAS 10MO</h1>
+                <h1>APLICACIONES WEB PROGRESIVAS</h1>
+                <h1>SEPTIEMBRE-DIEMBRE 2023</h1>
+                <br><br><br>
+                <a href="Roman/index.html"> 
+                <button id="start-button">Iniciar</button> 
+            </div>
+
+            <script src="script.js"></script>
+            <script>
+                if('serviceWorker' in navigator){
+                    navigator.serviceWorker.register(service-worker.js).then(function(registration){
+                        console.log('Service Worker registrado con exito:', registration);
+                    }).catch(function(error){
+                        console.log('Error al registrar el Servicio Worker:', Error);
+                    });
+                }
+            </script>
+
+        </body>
+</html>
